@@ -12,16 +12,6 @@ export default defineConfig({
   assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.hdr', '**/*.ktx2'],
   build: {
     target: 'esnext',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'three-core':    ['three'],
-          'fiber':         ['@react-three/fiber', '@react-three/drei'],
-          'postprocessing':['@react-three/postprocessing', 'postprocessing'],
-          'animations':    ['gsap', 'framer-motion'],
-        },
-      },
-    },
   },
   optimizeDeps: {
     include: [

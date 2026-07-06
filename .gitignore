@@ -1,0 +1,34 @@
+# Node.js dependencies
+app/node_modules/
+node_modules/
+
+# Build outputs
+app/dist/
+dist/
+
+# Local env files
+.env.local
+.env.*.local
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*

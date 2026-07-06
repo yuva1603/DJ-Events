@@ -1,0 +1,60 @@
+{
+  "company": {
+    "name": "ZONO Events",
+    "tagline": "We Don't Play Music. We Create Moments.",
+    "email": "hello@zonoevents.com",
+    "phone": "+1 800 ZONO DJ",
+    "instagram": "https://instagram.com/zonoevents",
+    "tiktok": "https://tiktok.com/@zonoevents",
+    "facebook": "https://facebook.com/zonoevents"
+  },
+  "zones": [
+    {
+      "id": "zone-1",
+      "eyebrow": "Sound Systems",
+      "headline": "The Power\nof Sound",
+      "description": "State-of-the-art speaker rigs that don't just fill the room — they consume it. Every frequency tuned for visceral impact.",
+      "cta": { "text": "Our Gear", "href": "#contact" }
+    },
+    {
+      "id": "zone-2",
+      "eyebrow": "DJ Craft",
+      "headline": "Precision\nin Every Beat",
+      "description": "World-class mixing desks, vinyl-grade turntables, and DJs who treat every set like a live performance. No playlists. Pure artistry.",
+      "cta": { "text": "Book a DJ", "href": "#contact" }
+    },
+    {
+      "id": "zone-3",
+      "eyebrow": "The Crowd",
+      "headline": "Join\nThousands",
+      "description": "From 200-person rooftops to 20,000-capacity arenas — we've moved crowds on every scale. Your guests deserve the same energy.",
+      "cta": { "text": "Past Events", "href": "#contact" }
+    },
+    {
+      "id": "zone-4",
+      "eyebrow": "Production Design",
+      "headline": "Light Up\nthe Night",
+      "description": "Laser arrays, volumetric fog, synchronized strobes — our production team designs environments as immersive as the music itself.",
+      "cta": { "text": "See More", "href": "#contact" }
+    },
+    {
+      "id": "zone-5",
+      "eyebrow": "Booking",
+      "headline": "Make It\nYours",
+      "description": "Tell us your vision. We'll build an experience your guests will never forget. Inquiries answered within 24 hours.",
+      "cta": { "text": "Book Now", "href": "#contact" }
+    }
+  ],
+  "events": [
+    { "title": "Neon Nights", "date": "Aug 12, 2024", "venue": "Sky Lounge", "city": "Los Angeles" },
+    { "title": "Bass Cathedral", "date": "Sep 7, 2024", "venue": "The Warehouse", "city": "Chicago" },
+    { "title": "Electric Carnival", "date": "Oct 3, 2024", "venue": "Expo Arena", "city": "Miami" },
+    { "title": "Zero Gravity", "date": "Nov 1, 2024", "venue": "Skybridge Hall", "city": "New York" }
+  ],
+  "nav": [
+    { "label": "Sound", "href": "#zone-1" },
+    { "label": "Craft", "href": "#zone-2" },
+    { "label": "Events", "href": "#zone-3" },
+    { "label": "Production", "href": "#zone-4" }
+  ]
+}

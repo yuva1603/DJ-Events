@@ -1,0 +1,16 @@
+# Netlify Configuration File
+# This allows Netlify to automatically configure the build settings for the subfolder app
+
+[build]
+  # The directory where Netlify will look for package.json and run the build
+  base    = "app"
+
+  # The build command to run
+  command = "npm run build"
+
+  # The directory containing the built HTML/JS assets to serve (relative to base)
+  publish = "dist"
+
+[build.environment]
+  # Force Netlify to use Node 20 for Vite compatibility
+  NODE_VERSION = "20"

@@ -101,6 +101,7 @@ export const ScrollIndicator = () => {
 export const ZoneOverlay = () => {
   const scrollProgress = useStore((s) => s.scrollProgress)
   const preloaderDone  = useStore((s) => s.preloaderDone)
+  const openContactForm = useStore((s) => s.openContactForm)
 
   if (!preloaderDone) return null
 
@@ -112,8 +113,6 @@ export const ZoneOverlay = () => {
     { enter: 0.65, peak: 0.75, exit: 0.90 },
     { enter: 0.85, peak: 0.93, exit: 1.00 },
   ]
-
-  const openContactForm = useStore((s) => s.openContactForm)
 
   const activeZone = BREAKPOINTS.reduce((found, bp, i) => {
     if (scrollProgress >= bp.enter && scrollProgress <= bp.exit) return i
